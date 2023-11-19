@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Aggregator</title>
+</head>
+<body>
+    <h1>GitHub Aggregator</h1>
+    
+    <form action="/" method="post">
+        <label for="username">GitHub Username:</label>
+        <input type="text" id="username" name="username" required>
+        
+        <label for="repository">Repository Name:</label>
+        <input type="text" id="repository" name="repository" required>
+        
+        <button type="submit">Submit</button>
+    </form>
+
+   
+    {% if contributor_count is defined %}
+        <h2>Total Contributors: {{ contributor_count }}</h2>
+        <h3>Contributors(commits):</h3>
+        <ul>
+            {% for contributor in contributors %}
+                <li>
+                    <strong>{{ contributor['login'] }}</strong>
+                    <br>
+                    Contributions: {{ contributor['contributions'] }}
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
+    
+    {% if error is defined %}
+        <p style="color: red;">{{ error }}</p>
+    {% endif %}
+</body>
+</html>

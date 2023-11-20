@@ -1,0 +1,22 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Aggregator</title>
+</head>
+<body>
+    <h1>GitHub Aggregator - Centralized Project Management</h1>
+
+    {% for data in commits_data %}
+        <h2>{{ data['repository'] }}</h2>
+        <ul>
+            {% for commit in data['commits'] %}
+                <li>{{ commit }}</li>
+            {% endfor %}
+        </ul>
+    {% endfor %}
+</body>
+</html>
+

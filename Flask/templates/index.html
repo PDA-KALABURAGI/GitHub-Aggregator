@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,10 +11,10 @@
     
     <form action="/" method="post">
         <label for="username">GitHub Username:</label>
-        <input type="text" id="username" name="username" required>
+        <input type="text" placeholder="Enter GitHub username" id="username" name="username" required >
         
         <label for="repository">Repository Name:</label>
-        <input type="text" id="repository" name="repository" required>
+        <input type="text" placeholder="Enter Repository name" id="repository" name="repository" required   >
         
         <button type="submit">Submit</button>
     </form>
@@ -21,7 +22,7 @@
    
     {% if contributor_count is defined %}
         <h2>Total Contributors: {{ contributor_count }}</h2>
-        <h3>Contributors(commits):</h3>
+        <h3>Contributors:</h3>
         <ul>
             {% for contributor in contributors %}
                 <li>
@@ -33,7 +34,7 @@
         </ul>
     {% endif %}
 
-    
+   
     {% if error is defined %}
         <p style="color: red;">{{ error }}</p>
     {% endif %}

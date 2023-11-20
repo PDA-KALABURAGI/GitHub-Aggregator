@@ -11,9 +11,9 @@ def index():
         repository = request.form.get('repository')
 
         if not username or not repository:
-            return render_template('index.html', error="Please provide both 'username' and 'repository'.")
+            return render_template('index.html', error="Please enter both 'username' and 'repository'.")
 
-        
+       
         repo_url = f'https://api.github.com/repos/{username}/{repository}'
         contributors_url = f'{repo_url}/contributors'
 
@@ -22,7 +22,7 @@ def index():
             repo_info = requests.get(repo_url).json()
             is_private = repo_info.get('private', False)
 
-            
+           
             contributors = []
             page = 1
 
@@ -44,7 +44,7 @@ def index():
         except requests.RequestException as e:
             return render_template('index.html', error=str(e))
 
-        
+       
         return render_template('index.html', contributor_count=contributor_count, contributors=contributors)
 
    
@@ -52,3 +52,5 @@ def index():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+

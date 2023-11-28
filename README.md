@@ -33,7 +33,7 @@
 - 🔎**Channam**ma
 - 🔎**Shreya**
 - 🔎**Priya**
--🔎**Ratna**
+- 🔎**Ratna**
   
 ### Data Analysts
 - **Akshata**

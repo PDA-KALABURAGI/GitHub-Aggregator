@@ -41,8 +41,6 @@
 
 ## Glimpses of GitHub Aggregator 🙈 :
 
- 
-
 - Home Page
  ![home](https://github.com/AmullyaPatil/Github-Aggregator/blob/main/home%20pg.png)
 - Aggregator page

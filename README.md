@@ -28,12 +28,12 @@
 - 👩🏻‍💻 **Soumya**
 
 ### Quality Assurance
-- **Aishwarya.Aggi**   
-- **Kavya**
-- **Channam**ma
-- **Shreya**
-- **Priya**
-- **Ratna**
+- 🔎**Aishwarya.Aggi**   
+- 🔎**Kavya**
+- 🔎**Channam**ma
+- 🔎**Shreya**
+- 🔎**Priya**
+-🔎**Ratna**
   
 ### Data Analysts
 - **Akshata**
@@ -47,6 +47,7 @@
 
 - "GitHub aggregator" generally refers to service that collects and displays information from multiple GitHub repositories or projects.
 - It will aggregate data such as commits, contributions, pull requests, and other information, providing a centralized view of activity across various repositories.
+<br> using Githuub RESTAPI's
 - This is beneficial in overseeing and managing projects within an expansive organization or for effectively monitoring contributions to open-source endeavors.
 
 ## Features

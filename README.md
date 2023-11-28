@@ -41,7 +41,7 @@
 
 ## Glimpses of GitHub Aggregator 🙈 :
 
- ![demo](https://github.com/AmullyaPatil/Github-Aggregator/blob/main/Git-aggre%20Demo.webm)
+ 
 
 - Home Page
  ![home](https://github.com/AmullyaPatil/Github-Aggregator/blob/main/home%20pg.png)

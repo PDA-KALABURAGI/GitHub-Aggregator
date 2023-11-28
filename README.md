@@ -36,12 +36,12 @@
 - 🔎**Ratna**
   
 ### Data Analysts
-- **Akshata**
-- **Veena**
-- **Aishwarya**
-- **Bhargavi**
-- **Praveen MB**
-- **Praveen**
+- 📊**Akshata**
+- 📊**Veena**
+- 📊**Aishwarya**
+- 📊**Bhargavi**
+- 📊**Praveen MB**
+- 📊**Praveen**
 
 ## Overview
 

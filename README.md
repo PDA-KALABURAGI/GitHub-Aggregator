@@ -41,10 +41,7 @@
 
 ## Glimpses of GitHub Aggregator 🙈 :
 
-
-[Git-aggre Demo.webm](https://github.com/PDA-KALABURAGI/GitHub-Aggregator/assets/121334866/285b8093-038d-45ce-83b2-520586425b18)
-
-
+https://github.com/PDA-KALABURAGI/GitHub-Aggregator/assets/121334866/7be0ec68-4709-4d92-9cb8-ac19f591954f
 
 - Home Page
  ![home](https://github.com/AmullyaPatil/Github-Aggregator/blob/main/home%20pg.png)

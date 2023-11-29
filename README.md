@@ -41,6 +41,11 @@
 
 ## Glimpses of GitHub Aggregator 🙈 :
 
+
+[Git-aggre Demo.webm](https://github.com/PDA-KALABURAGI/GitHub-Aggregator/assets/121334866/285b8093-038d-45ce-83b2-520586425b18)
+
+
+
 - Home Page
  ![home](https://github.com/AmullyaPatil/Github-Aggregator/blob/main/home%20pg.png)
 - Aggregator page
@@ -56,6 +61,12 @@
 - "GitHub aggregator" generally refers to service that collects and displays information from multiple GitHub repositories or projects.
 - It will aggregate data such as commits, contributions, pull requests, and other information, providing a centralized view of activity across various repositories using 
   Githuub RESTAPI's
+## Overview
 - This is beneficial in overseeing and managing projects within an expansive organization or for effectively monitoring contributions to open-source endeavors.
+- Monitoring project activity and developer contributions.
+- Assessing the health and engagement of individual projects.
+
+
+
 
 
